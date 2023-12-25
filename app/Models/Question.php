@@ -21,7 +21,7 @@ class Question extends Model
             'by_user_id'
         );
     } 
-
+    
     public function setTitleAttribute($value)
     {
         $this->attributes['title'] = $value;

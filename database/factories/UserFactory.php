@@ -42,3 +42,4 @@ class UserFactory extends Factory
         ]);
     }
 }
+// To Execut in tinker :  App\Models\User::Factory(5)->create()
